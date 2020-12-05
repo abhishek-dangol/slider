@@ -1,5 +1,4 @@
-# react-projects-7-slider
+### Link to the webpage:
+https://dan-slider.netlify.app/
 
-#### IN ACTION
-
-[Gatsby-Airtable Project](https://gatsby-airtable-design-project.netlify.app/)
+![](public/slider.gif)
