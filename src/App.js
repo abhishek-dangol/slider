@@ -4,6 +4,7 @@ import { FaQuoteRight } from "react-icons/fa";
 import data from "./data";
 function App() {
   document.title = "Reviews Slider";
+
   const [people, setPeople] = useState(data);
   const [index, setIndex] = useState(0);
 
@@ -20,7 +21,7 @@ function App() {
   useEffect(() => {
     let slider = setInterval(() => {
       setIndex(index + 1);
-    }, 5000);
+    }, 3000);
     return () => clearInterval(slider);
   }, [index]);
 
@@ -28,7 +29,7 @@ function App() {
     <section className="section">
       <div className="title">
         <h2>
-          <span>/</span>reviews
+          <span>/</span>Reviews
         </h2>
       </div>
       <div className="section-center">
